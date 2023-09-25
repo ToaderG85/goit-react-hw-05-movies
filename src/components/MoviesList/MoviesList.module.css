@@ -1,0 +1,36 @@
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 20px;
+  }
+  .item {
+    width: 250px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+  }
+
+  .item:hover,
+  .item:focus {
+    box-shadow: 12px 10px 26px 10px white;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  .poster {
+    width: 250px;
+    height: 375px;
+    display: block;
+  }
+  .title {
+    display: flex;
+    margin: 0;
+    padding: 10px 5px;
+    font-size: 18px;
+    height: 40px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+  }

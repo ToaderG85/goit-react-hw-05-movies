@@ -1,0 +1,13 @@
+.reviews {
+    border: 1px solid rgb(237, 203, 53);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  .title {
+    margin: 0;
+  }
+  .content {
+    margin: 0;
+    margin-top: 10px;
+  }
